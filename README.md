@@ -34,5 +34,24 @@ This project automates the process of **transcribing videos**, **segmenting them
 
 To install the required libraries, run:
 
-```bash
 pip install -r requirements.txt
+
+### Usage
+Run the script with the path to your video file as an argument:
+python giftool.py <video_path>
+
+
+For example:
+python giftool.py /path/to/your/video.mp4
+
+Output
+Transcription File: The transcribed text will be saved as transcription.txt.
+Video Segments: Segments of the video will be saved as segment_#.mp4 files.
+GIFs: GIFs corresponding to each segment will be saved as gif_#.gif files.
+
+#### Example
+Here’s a quick example:
+Transcribe and segment the video into meaningful parts.
+Create GIFs with captions for each segment, showcasing important content in a fun, shareable format.
+Customizing the Captions
+You can customize the styling of the captions (font size, color, position, etc.) by modifying the create_gifs_from_segments function.
