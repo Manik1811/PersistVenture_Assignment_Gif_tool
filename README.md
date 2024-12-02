@@ -55,3 +55,16 @@ Transcribe and segment the video into meaningful parts.
 Create GIFs with captions for each segment, showcasing important content in a fun, shareable format.
 Customizing the Captions
 You can customize the styling of the captions (font size, color, position, etc.) by modifying the create_gifs_from_segments function.
+
+
+Gif Tool/
+├── giftool.py                    # Main script that performs transcription, segmentation, and GIF creation
+├── README.md                     # Project overview and usage instructions
+├── input_video.mp4               # Example video file (if you want to include a sample)
+├── segment_0.mp4             # Video segment 0
+├── segment_1.mp4             # Video segment 1
+├── gif_0.gif                 # GIF for segment 0
+├── gif_1.gif                 # GIF for segment 1
+└── ...
+
+
